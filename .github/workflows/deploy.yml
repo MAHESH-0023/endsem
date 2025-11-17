@@ -62,7 +62,7 @@ jobs:
         with:
           # This 'path' MUST point to your project's build output directory
           # Common names are 'build', 'dist', 'out', or 'public'
-          path: './build' 
+          path: './dist' 
 
       # Step 6: Deploy the artifacts to GitHub Pages
       - name: Deploy to GitHub Pages
